@@ -1,0 +1,11 @@
+GET http://localhost:8080/api/v1/fitwell/activities/
+
+###
+
+POST http://localhost:8080/api/v1/fitwell/activities/
+Content-Type: application/json
+
+{
+  "module": "activity",
+  "title": "Push ups",
+}
