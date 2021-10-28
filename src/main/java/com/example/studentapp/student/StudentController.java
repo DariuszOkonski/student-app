@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-// Properties File
 
 @RestController
 @RequestMapping(path = "api/v1/student")
