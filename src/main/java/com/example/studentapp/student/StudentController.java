@@ -15,6 +15,7 @@ public class StudentController {
 
     @Autowired
     public StudentController(StudentService studentService) {
+
         this.studentService = studentService;
     }
 
@@ -26,6 +27,7 @@ public class StudentController {
 
     @PostMapping
     public void registerNewStudent(@RequestBody Student student) {
+
         studentService.addNewStudent(student);
     }
 }
